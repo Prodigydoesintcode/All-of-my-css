@@ -1,0 +1,75 @@
+/* MOVED PLAYBTN */
+.play[data-v-76794d6b] {
+    position: absolute;
+    bottom: 0;
+    right: 765px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    z-index: 4;
+    transform-origin: right bottom;
+}
+/* Added The infinite sign next to ammo */
+.quantity[data-v-4f0772fa] {
+    display: flex;
+    align-items: center;
+    font-size: 96px;
+    background: rgba(0,0,0,.4);
+    border-radius: 3px;
+    height: 68.8px;
+    line-height: 32px;
+    margin-left: 8px;
+    padding: 6.4px 20px;
+    font-family: Sans-serif;
+    /* display: none; */
+}
+/* Gradient Username (Lobby) */
+.nickname[data-v-00ce7b25] {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: .15rem;
+     background: linear-gradient(to right, #121FCF 0%, #CF1512 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: none !important;
+}
+/*Removed the Currently Playing and Play Count elements*/
+#playerholderelement,
+#currentlyplaying,
+#playcountelement,
+#playcountelementoce,
+#playcountelementasia,
+#playcountelementsa,
+#playcountelementna,
+#playcountelementeu {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+/* Custom badging add as many as you want(only u can c it)*/ 
+.interface .nickname {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.interface .nickname::after {
+    content: "";
+    display: inline-flex;
+    width: auto;
+    height: 32px;
+    background-image: url(https://i.imgur.com/zDTPdlN.png);
+    /* Examples (https://i.imgur.com/a8y0oFQ.png) (https://cdn.discordapp.com/emojis/1279897558092611655.webp)(https://cdn.discordapp.com/emojis/1272017097358180363.webp)
+    (https://cdn.discordapp.com/emojis/1234955156349517994.webp)(https://cdn.discordapp.com/emojis/1297292311281008671.webp)(https://cdn.discordapp.com/emojis/1280169746930860146.webp)
+    (https://cdn.discordapp.com/emojis/1246231152902148149.webp)(https://cdn.discordapp.com/emojis/1278746636922785792.webp)(https://cdn.discordapp.com/emojis/1260670842619166780.webp)(https://cdn.discordapp.com/emojis/1260670724654370847.webp)(https://cdn.discordapp.com/emojis/1260670725879238726.webp?size=96)
+    (https://cdn.discordapp.com/emojis/1260670726755581984.webp)(https://cdn.discordapp.com/emojis/1260670841008423005.webp)*/
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Made by Nighmares/Prodigy Scratcher Made on 2/6/2026

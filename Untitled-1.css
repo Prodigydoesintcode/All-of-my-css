@@ -1,0 +1,671 @@
+:root {
+        
+    /* Fonts */
+    }
+
+    @font-face {
+        font-family: gamefont;
+        src: url("https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf");
+    }
+    * {
+        font-family: gamefont;
+    }
+
+    /* Transparent */
+    .box,
+    .input,
+    .settings,
+    .quests,
+    .quest,
+    .tip,
+    .amount,
+    .reward,
+    .progress-line,
+    .card-cont,
+    .container-card,
+    .progress[data-v-49c6809c],
+    .background,
+    .container button .border-top,
+    .container button .border-bottom,
+    .messages.messages-cont.small,
+    .title,
+    .card-list,
+    .head,
+    .changelog-item,
+    .card,
+    .live-streams,
+    .left,
+    .cont {
+        background: transparent !important;
+        border: none !important;
+    }
+
+    .progress[data-v-0f7a25c2] {
+        background: #2b2b2b !important;
+        box-shadow: none !important;
+        border-bottom: none !important;
+        
+    }
+    
+    .progress-line {
+        background: #535353 !important;
+    }
+    
+    .progress-line::after,
+    .progress-line::before {
+        background: white !important;
+    }
+    
+    .wrapper {
+        background: none;
+    }
+
+    /* Text Color */
+
+    .level-value,
+    .levels {
+        color:#fff !important;
+    }
+
+    .top-name,
+    .list-labels,
+    .active,
+    .level,
+    .header,
+    .lvl-leader,
+    .label-primary,
+    .awards-span,
+    .champions-league,
+    .champions-scores,
+    .all-scores-label,
+    .stat-name,
+    .progress-level-value,
+    .amount{
+        color: var(--asscentColor) !important;
+    }
+    .tab:hover,
+    .nav:hover {
+        color: var(--asscentColor) !important;
+    }
+
+    /* Custom Backgorund */
+#app > div.interface.text-2 > div.background {
+    background: url(https://i.imgur.com/EH4ygTZ.jpeg) repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+    -webkit-animation: animate 30s linear infinite !important;
+    animation: animate 30s linear infinite !important;
+}
+    .end-modal .bottom { 
+        display: none; 
+    }
+
+    .end-modal .team-list-players .list .player {
+        background: transparent !important;
+        border: none !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
+    }
+
+    .end-modal .team-list-players .card-cont:nth-child(1),
+    .end-modal .team-list-players .card-cont:nth-child(2),
+    .end-modal .team-list-players .items {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .end-modal .team-list-players .label {
+        background: transparent;
+        color: var(--asscentColor);
+    }
+
+    /* Login/Signup*/
+    .auth-form {
+        margin-left: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        border-radius: 0 !important;
+    }
+
+    .auth-form .btns button {
+        transform: none !important;
+        padding: 0px;
+        box-shadow: 2px 2px 2px #fff !important;
+        background: #000;
+    }
+
+    .auth-user .loading {
+        background: transparent !important;
+        border: none;
+        border-bottom: none !important;
+        border-radius: 0;
+    }
+
+    .auth-user .loader-container {
+        margin-right: 95% !important;
+    }
+
+    .auth-form .btns button:hover {
+        background-color: rgba(0, 0, 0, 0) !important;
+        box-shadow: 2px 3px 4px #fff !important;
+    }
+
+    .auth-form button,
+    .auth-form button .border-top,
+    .auth-form button .border-bottom{
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .auth-form button .triangle {
+        display: none;
+    }
+
+
+    /* Right Interface */
+    .right-interface {
+        padding-top: 20px;
+    }
+
+    .soc-group:nth-child(1),
+    .soc-group:nth-child(2) {
+        background: transparent !important;
+        border: none;
+        visibility: hidden;
+    }
+
+    .soc-group:nth-child(1):hover,
+    .soc-group:nth-child(2):hover {
+        background: none !important;
+        transform: scale(1.5);
+        visibility: hidden;
+    }
+
+    .right-interface .settings {
+        background: transparent;
+        border: none;
+        width: 20px !important;
+        transition: 0.3s;
+        z-index: 2;
+    } 
+
+    .right-interface .settings:hover {
+        background: none;
+        transform: scale(1.5);
+    }
+
+    .right-interface {
+        z-index: 999 !important;
+    }
+
+    /* Left Menu */
+
+    .left-icons, .icon-btn {
+        background: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+    } 
+
+    .text-icon {
+        display: none !important;
+    }
+
+    .left-icons .icon-btn:hover {
+        border-top: transparent !important;
+    }
+
+
+    .left-interface[data-v-6ef47e92] {
+        position: absolute;
+        left: 42%;
+        top: 3%;
+        z-index: 9;
+        transform-origin: top left;
+    .hp {
+    margin-right: 20%;
+    border: #f00;
+    
+};
+    }
+    .hp {
+    margin-right: 20%;
+    background: linear-gradient(to right, #373737, #969696, #373737) !important;
+}
+    /*Death THing*/
+    .game-interface>.death-cont {
+        margin-top: 23rem;
+        background: #0000;
+    }
+    .death-cont>.user-card {
+        background: #0000007d;
+        border: 0px solid #0000;
+        box-shadow: unset;
+    }
+
+    .death-cont>.user-card>.top>.top-left>.avatar {
+        border: 2px solid #1c1b22 !important;
+    }
+
+    .death-cont>.user-card>.top>.lvl {
+        color: #fff;
+        background: transparent;
+    }
+
+    .game-interface>.death-cont::before {
+        content: "the kid that just killed u wasint subbed to ur yt.....";
+        font-weight: bold;
+        margin-bottom: 1 rem;
+    }
+
+    .user-card>.bottom>.bottom-left>.label-killed {
+        display: none;
+    }
+
+    .user-card>.bottom>.bottom-left>.name-gun::before {
+        content: "[ ";
+    }
+
+    .user-card>.bottom>.bottom-left>.name-gun::after {
+        content: " ]";
+    }
+    /* Inv & Friends */
+    #right-icons [data-v-ae524044] {
+        height: 3.2rem;
+    }
+    #right-icons > div.icon-btn.text-1 {
+        width: 139px;
+        font-size: 18px;
+        height: 65px;
+    }
+    #right-icons [data-v-1cbd79ff] {
+        width: 139px;
+        font-size: 18px;
+        height: 65px;
+    }
+    #right-icons [data-v-b8de1e14] {
+        display: none;
+    }
+    .right-icons .gun-img {
+        display: none;
+    }
+    .right-icons .icon-btn {
+        background: transparent !important;
+        border-bottom: transparent !important;
+        border: none !important;
+    }
+
+    /* Server & Play */
+    .select-mod:hover,
+    .select-region:hover {
+        background-color: #002b07 !important;
+    }
+
+    .select-mod,
+    .select-region {
+        background:#002b07 !important;
+        padding: 8px !important;
+        border-radius: 5px !important;
+        border-color: transparent !important;
+        opacity: var(--opacity);
+        text-shadow: var(--glow);
+    }
+
+    .select-mod {
+        padding-left: 8px !important;
+    }
+    .select-regions-cont {
+        background: #002b07;
+        bottom: 30px !important;
+        right: 97% !important;
+        background-color: var(--main) !important;
+        box-shadow: none !important;
+        border-radius: 5px !important;
+        border-color: var(--trans) !important;
+        opacity: var(--opacity);
+    }
+
+    /* Join URL Button (For client only) */
+    .join-using-link {
+        background: transparent !important;
+        border-right: none !important;
+        border-left: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+    .join-using-link:active {
+        background: transparent !important;
+        border-right: none !important;
+        border-left: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+    #clientJoinButton {
+        background: transparent !important;
+        border-right: none !important;
+        border-left: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+    #clientJoinButton:active {
+        background: transparent !important;
+        border-right: none !important;
+        border-left: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+    #play-btn {
+        background:  #002b07 !important;
+        box-shadow: 4px 4px 30px  #002b07 !important;
+        border-radius: 8px;
+        border: 2px solid  #002b07;
+        transform: scale(1.0);
+    }
+
+    #play-btn:hover {
+        background: rgb(24, 51, 7);
+        transform: scale(1.05);
+    }
+
+    #join-btn {
+        background: #002b07 !important;
+        box-shadow: 4px 4px 30px var(--asscentColor) !important;
+        border-radius: 90px;
+        border: 1px solid var(--asscentColor);
+        transform: scale(1.0);
+    }
+
+    .join-btn {
+        font-weight:bold;   
+    }
+    div#join-btn.text {
+        font-weight:bold;   
+    }
+
+    #ready-btn {
+        background: #002b07 !important;
+        box-shadow: 4px 4px 30px var(--asscentColor) !important;
+        border-radius: 90px;
+        border: 1px solid var(--asscentColor);
+        transform: scale(1.0);
+    }
+
+    /*logo*/
+    #logo {
+        content: url("https://i.imgur.com/CU4pvYf.png") !important;
+        width: 24rem;
+        height: auto !important;
+        transform: scale(1.0);
+    }
+
+    #leave-btn {
+        background: #afff2e !important;
+        box-shadow: 4px 4px 30px var(--asscentColor) !important;
+        border-radius: 90px;
+        border: 1px solid var(--asscentColor);
+        transform: scale(1.0);
+    }
+
+    #invite-btn {
+        background: transparent !important;
+        box-shadow: 1.5px 1.4px 30px var(--asscentColor) !important;
+        border-radius: 90px;
+        border: 2px solid #ffffff8a;
+        transform: scale(1.0);
+
+        /* ⭐ NEW: Add Party button positioning */
+        position: relative !important;
+        top: -20px;
+        left: 40px;
+        z-index: 9999;
+    }
+
+    .button[data-v-02c36fca] {
+        -webkit-text-stroke: 0px !important;
+    }
+
+    .button[data-v-02c36fca]:after {
+        border: none;
+        background: transparent !important;
+    }
+
+    .triangle[data-v-02c36fca] {
+        display: none !important;
+        background: transparent;
+    }
+
+    .progress[data-v-cd9878b6] {
+        background: linear-gradient(306deg, #0a1258 #02051d)!important;
+    }
+
+    /*  Ad Removal */
+    .ad-bottom,
+    .ad-left {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .className {
+        display: none !important;
+    }
+
+    /* Mode Selection */
+    .select-mods-cont,
+    .select-mods-cont > hr {
+        background-color: transparent!important;
+    }
+    .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+        background-color: var(--asscentColor);
+        border-color: var(--asscentColor);
+    }
+    .soc-group[data-v-f6928a74],
+    .text-soc[data-v-26102dd2] {
+        display: none !important;
+    }
+
+    /* Check Box */
+    .private-btn > span[data-v-47e1b746] {
+        content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
+        position: fixed;
+        left: 25px;
+        width: 40px;
+    }
+
+    .private-btn > input:checked + span[data-v-47e1b746] {
+        content: url(https://media.discordapp.net/attachments/523517791886770188/953239093955948544/lock.png);
+    }
+
+    .custom-checkbox > span[data-v-47e1b746]:before {
+        border-radius: 50px;
+        background-color: white;
+        border: none;
+    }
+
+    .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+        background-color: var(--asscentColor);
+    }
+
+    .input .items[data-v-4f6bb432] {
+        background: transparent !important;
+        backdrop-filter: blur(15px);
+    }
+
+    /* chat */
+    .desktop-game-interface #WMNn {
+        transform: scale(0);
+        transition-duration: 0.25s ;
+    }
+
+    .desktop-game-interface #WMNn:focus {
+        transform: scale(1);
+    }
+
+    .clans,
+    .hub-container,
+    .mobile-fullscreen,
+    .add-friends,
+    .tab-bar,
+    .top-items,
+    .subject,
+    .inventory .avatar,
+    .player-right,
+    .ach-cont,
+    .inventory,
+    .border-top.border,
+    .border-bottom.border,
+    .background {
+    background: transparent !important;
+    }
+
+    .head-text,
+    .reset-time,
+    .info-awards,
+    .news,
+    .list-cont,
+    .card-profile,
+    .profile .k-d,
+    .profile .statistics,
+    .profile-cont .progress[data-v-d2be3bc6] {
+        background: transparent !important;
+        box-shadow: none !important;
+        border-bottom: none !important;
+    }
+
+    .tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+    }
+
+    .active-tab,
+    .tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    }
+
+    .limit {
+    border-left: none !important;
+    }
+
+    .top-bar,
+    .name-page {
+    display: none !important;
+    }
+
+.home {
+    display: inline-block !important;
+    width: 24px;
+    height: 24px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="m12.71,2.29c-.39-.39-1.02-.39-1.41,0L3.29,10.29c-.19.19-.29.44-.29.71v9c0,1.1.9,2,2,2h4c.55,0,1-.45,1-1v-6h4v6c0,.55.45,1,1,1h4c1.1,0,2-.9,2-2v-9c0-.27-.11-.52-.29-.71L12.71,2.29Zm3.29,17.71v-5c0-1.1-.9-2-2-2h-4c-1.1,0-2,.9-2,2v5h-3v-8.59l7-7,7,7v8.59s-3,0-3,0Z"/></svg>') center/contain no-repeat !important;
+    vertical-align: middle;
+    color: #fff;
+}
+
+    .container {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+    }
+
+    .champions-list {
+    box-shadow: none !important;
+    }
+
+    .button.create-btn.rectangle {
+        background: #002b07 !important;
+        box-shadow: none !important;
+    }
+    .card.progress {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+    .items {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .crosshair-static {
+        display: flex !important;
+        visibility: visible !important;
+    }
+
+    /*  Player Position  */
+    #team-section > div.player-cont {
+        position: relative !important;
+        top: -20px;
+        left: 40px;
+    }
+
+    /* Always Vita Crosshair */
+    .crosshair-static {
+        display: flex !important;
+        visibility: visible !important;
+    }
+    #team-section > div.player {
+        margin-right: 0rem;
+        margin-top: 5rem;
+    }
+
+    .hitmark {
+        height: 230px;
+        content: url(https://i.imgur.com/gFiptJW.png);
+        z-index: 1;
+    }
+
+    .ach-cont { 
+        top: 0 !important; 
+        width: 100%; 
+        height: 100vh; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    } 
+    .ach-cont>.animate-cont { 
+        transform: none !important; 
+        width: auto; 
+        height: auto; 
+    } 
+    .animate-cont>svg { 
+        display: none; 
+    } 
+    .animate-cont>.text { 
+        font-size: 1rem !important; 
+        font-weight: 700 !important; 
+        margin: unset !important; 
+        margin-left: 15rem !important; 
+    } 
+    .animate-cont>.text>span>span { 
+        color: white !important;
+    }
+
+    .icon-btn.home {
+        background: #befab9 !important;
+        border-radius: 8px !important;
+        border: 2px solid #00FFFF !important;
+        box-shadow: 0 2px 12px #d5ffd588 !important;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s, box-shadow 0.2s;
+    }
+    .icon-btn.home:hover {
+        background: #00FFFF !important;
+        box-shadow: 0 4px 24px #00FFFF88 !important;
+    }
+    .icon-btn.home .icon.home svg,
+    .icon-btn.home .icon.home {
+        width: 32px !important;
+        height: 32px !important;
+        fill: #fff !important;
+        transition: fill 0.2s;
+    }
+    .icon-btn.home:hover .icon.home svg,
+    .icon-btn.home:hover .icon.home {
+        fill: #0a1258 !important;
+    }
